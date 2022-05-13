@@ -16,7 +16,7 @@ frappe.ready(function () {
         frappe.web_form.validate = () => {
           if (height > 1200 || width > 930 || height < 774 || width < 600) {
             frappe.throw(
-              "Height must be Between 774px to 1200px and Width must be Between 600px and 930px"
+              "Height must be between 774px to 1200px and Width must be Between 600px and 930px"
             );
             return false;
           }
